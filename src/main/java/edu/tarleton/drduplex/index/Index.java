@@ -13,10 +13,10 @@ public interface Index {
 
     void nextStmt(Pos prev, Pos curr);
 
-    public void print() throws Exception;
+    void print() throws Exception;
 
-    public CloneSet detectClonesType2(String level, int minSize, int maxSize) throws Exception;
+    CloneSet detectClonesType2(String level, int minSize, int maxSize) throws Exception;
 
-    public Histogram createHistogram() throws Exception;
+    Histogram createHistogram() throws Exception;
 
 }
