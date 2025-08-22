@@ -12,6 +12,9 @@ command (see also ```compile.bat```):
 mvn clean compile assembly:single
 ```
 
+## Latest Version
+Latest version is available for download <a href="https://github.com/tronicek/DrDupLex/raw/master/DrDupLex-1.0-jar-with-dependencies.jar">here</a> (select "Download raw file").
+
 ## Running
 The run and output of DrDupLex are controlled by a configuration file,
 which can contain the following configuration parameters:
